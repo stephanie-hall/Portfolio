@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- Font-Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+
+<body class="py-3 my-5">
+    <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-info">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#fixed-navbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="fixed-navbar">
+          <ul class="navbar-nav mr-auto mt-2">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle p-1 mx-2" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
+                <i class="fas fa-users"> Connect</i>
+              </a>
+              <div class="dropdown-menu">
+                <h4 class="dropdown-header connects font-weight-bold">
+                  <i class="fas fa-users"> Connect With Me </i>
+                </h4>
+                <div class="dropdown-divider"></div>
+                <div id="connect-drop" class="row no-gutters mx-auto justify-content-center m-0 mt-md-3">
+                    <div class="col-4 text-center mx-auto">
+                      <figure class="figure">
+                        <a title="View my GitHub profile" href="https://github.com/stephanie-hall">
+                          <img src="images/github.png" class="figure-img navbar-img img-thumbnail" alt="Github">
+                          <figcaption class="figure-caption text-center connects"><i class="fab fa-github"> GitHub</i></figcaption>
+                        </a>
+                      </figure>
+                    </div>
+                    <div class="col-4 text-center mx-auto">
+                      <figure class="figure">
+                        <a title="View my LinkedIn profile" href="https://www.linkedin.com/in/stephanie-hall41">
+                          <img src="images/linkedin.png" class="figure-img navbar-img img-thumbnail" alt="LinkedIn">
+                          <figcaption class="figure-caption text-center connects"><i class="fab fa-linkedin"> LinkedIn</i></figcaption>
+                        </a>
+                      </figure>
+                    </div>
+                    <div class="col-4 text-center mx-auto">
+                      <figure class="figure">
+                        <a title="View my resume pdf" href="https://docs.google.com/document/d/1bHWGu_OIg-zMGAAsDuKbFS2ITxqRySrwo7Gqh2vCDC4/edit?usp=sharing">
+                          <img src="images/resume.png" class="figure-img navbar-img img-thumbnail" alt="Resume PDF">
+                          <figcaption class="figure-caption text-center connects"><i class="fas fa-file"> Resume</i></figcaption>
+                        </a>
+                      </figure>
+                    </div>
+                  </div>
+              </div>
+            </li>
+            <li class="nav-item active mx-2">
+              <a class="nav-link p-1 disabled" href="./index.html">
+                <i class="fas fa-portrait"> About Me</i> 
+              </a>
+            </li>
+            <li class="nav-item mx-2">
+              <a class="nav-link p-1" href="./portfolio.html">
+                <i class="fas fa-laptop-code"> Portfolio</i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      <span class="navbar-brand" >Stephanie Hall</span>
+    </nav>
+
+  <div class="container">
+    <div class="jumbotron text-white text-center p-1 mt-2 shadow-lg bg-info">
+      <h1 class="display-4">Stephanie's Portfolio</h1>
+      <hr class="my-2">
+      <p>
+         Deployed Projects
+      </p>
+    </div>
+
+    <div class="row">
+      <div class="card p-1 col-sm-6 col-lg-4 text-center">
+        <div class="card-header">
+          <h4 class="card-title"></h4>
+        </div>
+        <div class="card-body">
+          <img class="card-img" src="images/project3.PNG" alt="Picture of React Recipe Finder website">
+          <p class="card-text">Quickly search for a new recipe to try.</p>
+        </div>
+        <div class="card-footer btn-group">
+          <a href="https://github.com/stephanie-hall/project-3" class="btn btn-primary">
+            <i class="fab fa-github"> GitHub</i>
+          </a>
+          <a href="https://msu-project-3.herokuapp.com/" class="btn btn-primary">
+            <i class="fas fa-link"> Website</i>
+          </a>
+        </div>
+      </div>
+
+      <div class="card p-1 col-sm-6 col-lg-4 text-center">
+        <div class="card-header">
+          <h4 class="card-title">Note Taker</h4>
+        </div>
+        <div class="card-body">
+          <img class="card-img" src="images/note.PNG" alt="Picture of Note Taker App">
+          <p class="card-text">An application that can be used to write, save, and delete notes. 
+            This application uses an express backend and save and retrieve note data from a JSON file.</p>
+        </div>
+        <div class="card-footer btn-group">
+          <a href="https://github.com/stephanie-hall/Express-note-taker" class="btn btn-primary">
+            <i class="fab fa-github"> GitHub</i>
+          </a>
+          <a href="https://hw11-express-note-taker.herokuapp.com/" class="btn btn-primary">
+            <i class="fas fa-link"> Website</i>
+          </a>
+        </div>
+      </div>
+
+      <div class="card p-1 col-sm-6 col-lg-4 text-center">
+        <div class="card-header">
+          <h4 class="card-title">Weather Dashboard</h4>
+        </div>
+        <div class="card-body">
+          <img class="card-img" src="images/weather.png" alt="Picture of Weather Dashboard">
+          <p class="card-text">A weather dashboard that will run in the browser and feature dynamically updated HTML using openweathermap.org API.</p>
+        </div>
+        <div class="card-footer btn-group">
+          <a href="https://github.com/stephanie-hall/Server-Side-APIs-Weather-Dashboard" class="btn btn-primary">
+            <i class="fab fa-github"> GitHub</i>
+          </a>
+          <a href="https://stephanie-hall.github.io/Server-Side-APIs-Weather-Dashboard/" class="btn btn-primary">
+            <i class="fas fa-link"> Website</i>
+          </a>
+        </div>
+      </div>
+    </div>
+      
+    <div class="row">
+      <div class="card p-1 col-sm-6 col-lg-4 text-center">
+        <div class="card-header">
+          <h4 class="card-title">Employee Directory</h4>
+        </div>
+        <div class="card-body">
+          <img class="card-img" src="images/employee.PNG" alt="Picture of Employee Directory">
+          <p class="card-text">A directory application that allows the user to view my entire 
+            employee directory at once so that I have quick access to their information..</p>
+        </div>
+        <div class="card-footer btn-group">
+          <a href="https://github.com/stephanie-hall/react-employee-directory" class="btn btn-primary">
+            <i class="fab fa-github"> GitHub</i>
+          </a>
+          <a href="https://hw19-react-employee.herokuapp.com/" class="btn btn-primary">
+            <i class="fas fa-link"> Website</i>
+          </a>
+        </div>
+      </div>
+
+      <div class="card p-1 col-sm-6 col-lg-4 text-center">
+        <div class="card-header">
+          <h4 class="card-title">Budget Tracker</h4>
+        </div>
+        <div class="card-body">
+          <img class="card-img" src="images/budget.PNG" alt="Picture of budget tracker app">
+          <p class="card-text">An application that will allow the user to be able to add expenses 
+            and deposits to their budget with or without a connection. When entering transactions 
+            offline, they should populate the total when brought back online. </p>
+        </div>
+        <div class="card-footer btn-group">
+          <a href="https://github.com/stephanie-hall/PWA-Budget-Tracker" class="btn btn-primary">
+            <i class="fab fa-github"> GitHub</i>
+          </a>
+          <a href="https://msu-hw18-pwa-budget-tracker.herokuapp.com/" class="btn btn-primary">
+            <i class="fas fa-link"> Website</i>
+          </a>
+        </div>
+      </div>
+
+      <div class="card p-1 col-sm-6 col-lg-4 text-center">
+        <div class="card-header">
+          <h4 class="card-title">Chef's Table</h4>
+        </div>
+        <div class="card-body">
+          <img class="card-img" src="images/chefs-table.png" alt="picture of Chef's Table Website">
+          <p class="card-text">An application that allows the user to save all their favorite recipes in one spot. This 
+            app utilizes JavaScript, Node.js, Express, Handlebars.js, and MySQL.
+          </p>
+        </div>
+        <div class="card-footer btn-group">
+          <a href="https://github.com/stephanie-hall/Project-2" class="btn btn-primary">
+            <i class="fab fa-github"> GitHub</i>
+          </a>
+          <a href="https://sheltered-beyond-37589.herokuapp.com/" class="btn btn-primary">
+            <i class="fas fa-link"> Website</i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div> 
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>   
+</body>
+</html>
